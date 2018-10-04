@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
@@ -25,4 +25,20 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.sidebar {
+  border-right: solid 1px #f1f1f1;
+  height: 100vh;
+}
+.sidebar__logo {
+  max-width: 100%;
+  height: auto;
+  padding: 0;
+}
+.sidebar__logo img {
+  max-width: 145px;
+}
+.ant-layout-header.header {
+  background: #fff;
 }
